@@ -428,15 +428,15 @@ void Cube::apply_random_operations(int N) {
     cout<<"\n>>> Applied "<<N<<" random operations on the Cube";
 }
 void Cube::print_faces() {
-    cout<<endl<<"F           B"<<endl;
+    cout<<endl<<"Front       Back"<<endl;
     cout<<F[0]<<"  "<<F[1]<<"        "<<B[0]<<"  "<<B[1]<<endl;
     cout<<F[3]<<"  "<<F[2]<<"        "<<B[3]<<"  "<<B[2]<<endl;
 
-    cout<<"L           R"<<endl;
+    cout<<"Left        Right"<<endl;
     cout<<L[0]<<"  "<<L[1]<<"        "<<R[0]<<"  "<<R[1]<<endl;
     cout<<L[3]<<"  "<<L[2]<<"        "<<R[3]<<"  "<<R[2]<<endl;
 
-    cout<<"U           D"<<endl;
+    cout<<"Up          Down"<<endl;
     cout<<U[0]<<"  "<<U[1]<<"        "<<D[0]<<"  "<<D[1]<<endl;
     cout<<U[3]<<"  "<<U[2]<<"        "<<D[3]<<"  "<<D[2]<<endl;
 }
