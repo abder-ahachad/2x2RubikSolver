@@ -130,7 +130,7 @@ unordered_map<char, Face> Cube::get_square_periphery(Face face, int i) {
         if(i == 2)
             return {{B[3],B}, {D[0],D}};
         if (i == 3)
-            return {{F[2],F}, {}};
+            return {{F[2],F}, {D[3], D}};
     }
     if(face == U) {
         if(i == 0)
